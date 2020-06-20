@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
+    <form method="GET" action="" id="searchform">
+    <input class="searchfield" id="searchbox" name="title" type="text" value="{{ request.GET.title }}" placeholder="Search..."/>
+    </form>
+    <p></p>
     {% for post in posts %}
         <article class="media content-section">
           <div class="media-body">
