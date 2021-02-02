@@ -1,4 +1,4 @@
-Django==3.0.7
+Django==3.0.12
 django-crispy-forms
 pytz==2018.5
 urllib3==1.23
