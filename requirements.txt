@@ -1,5 +1,6 @@
-Django==3.0.7
+Django==4.2.27
 django-crispy-forms
 pytz==2018.5
 urllib3==1.23
 requests==2.19.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
